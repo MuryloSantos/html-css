@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: blanchedalmond;
+        }
+
+        a {
+            color: rgb(0, 179, 179);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(0, 51, 51);
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: rgb(0, 90, 90);
+        }
+
+        a:active {
+            color: bisque;
+        }
+
+        .especial {
+            background-color: rgba(127, 255, 212, 0.418);
+        }
+
+        .especial::after {
+            content: '♫';
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+        }
+
+        .especial::before {
+            content: '☠';
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=har3c93pJe0" target="_blank" rel="external" class="especial">Repositório GitHub</a></li>
+        <li><a href="https://www.youtube.com/watch?v=0EaF6Yrkr1I" target="_blank" rel="external">Canal do Youtube</a></li>
+        <li><a href="https://www.youtube.com/watch?v=y0kOj6PSM-Q" target="_blank" rel="external" class="especial">Site do CursoemVideo</a></li>
+    </ul>
+</body>
+</html>
